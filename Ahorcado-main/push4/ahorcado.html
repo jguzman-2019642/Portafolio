@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahorcado</title>
+    <script>
+        var hombre = new Array("___\n", "   |\n", "   O\n", "  /", "|", "\\\n", "  /", " \\\n", "___")
+        var palabra
+        var libreriaPalabras = new Array("e j e r c i c i o", "n o s e")
+        var partes = 0
+        var colNueva = 0
+        var jugando
+
+    </Script>
+
+</head>
+
+<body>
+    <br>
+    <div  aling="center">
+    <textarea  name="Dibujo" rows="20" cols="100"></textarea>
+    </div>
+
+    <table align="center">
+
+        <tr>
+            <td height="50" width=50><input type=button name=botA value=" A " onClick="Juega(this.form, 'a')"></td>
+            <td height="50" width=50><input type=button name=botB value=" B " onClick="Juega(this.form, 'b')"></td>
+            <td height="50" width=50><input type=button name=botC value=" C " onClick="Juega(this.form, 'c')"></td>
+            <td height="50" width=50><input type=button name=botD value=" D " onClick="Juega(this.form, 'd')"></td>
+            <td height="50" width=50><input type=button name=botE value=" E " onClick="Juega(this.form, 'e')"></td>
+            <td height="50" width=50><input type=button name=botF value=" F " onClick="Juega(this.form, 'f')"></td>
+
+        </tr>
+        <tr>
+            <td height="50" width=50><input type=button name=botG value=" G " onClick="Juega(this.form, 'G')"></td>
+            <td height="50" width=50><input type=button name=botH value=" H " onClick="Juega(this.form, 'h')"></td>
+            <td height="50" width=50><input type=button name=botI value=" I " onClick="Juega(this.form, 'i')"></td>
+            <td height="50" width=50><input type=button name=botJ value=" J " onClick="Juega(this.form, 'j')"></td>
+            <td height="50" width=50><input type=button name=botK value=" K " onClick="Juega(this.form, 'k')"></td>
+            <td height="50" width=50><input type=button name=botL value=" L " onClick="Juega(this.form, 'l')"></td>
+
+
+        </tr>
+        <tr>
+            <td height="50" width=50><input type=button name=botM value=" M " onClick="Juega(this.form, 'm')"></td>
+            <td height="50" width=50><input type=button name=botN value=" N " onClick="Juega(this.form, 'n')"></td>
+            <td height="50" width=50><input type=button name=botÑ value=" Ñ " onClick="Juega(this.form, 'ñ')"></td>
+            <td height="50" width=50><input type=button name=botO value=" O " onClick="Juega(this.form, 'o')"></td>
+            <td height="50" width=50><input type=button name=botP value=" P " onClick="Juega(this.form, 'p')"></td>
+            <td height="50" width=50><input type=button name=botQ value=" Q " onClick="Juega(this.form, 'q')"></td>
+        </tr>
+        <tr>
+            <td height="50" width=50><input type=button name=botR value=" R " onClick="Juega(this.form, 'r')"></td>
+            <td height="50" width=50><input type=button name=botS value=" S " onClick="Juega(this.form, 's')"></td>
+            <td height="50" width=50><input type=button name=botT value=" T " onClick="Juega(this.form, 't')"></td>
+            <td height="50" width=50><input type=button name=botU value=" U " onClick="Juega(this.form, 'u')"></td>
+            <td height="50" width=50><input type=button name=botV value=" V " onClick="Juega(this.form, 'v')"></td>
+            <td height="50" width=50><input type=button name=botW value=" W " onClick="Juega(this.form, 'w')"></td>
+        </tr>
+        <tr>
+            <td height="50" width=50><input type=button name=botX value=" X " onClick="Juega(this.form, 'x')"></td>
+            <td height="50" width=50><input type=button name=botY value=" Y " onClick="Juega(this.form, 'y')"></td>
+            <td height="50" width=50><input type=button name=botZ value=" Z " onClick="Juega(this.form, 'z')"></td>
+            <td colspan=3 align=center><input type=button name=Inicia value="  Juego nuevo   "
+                    onClick="IniciaJuego(this.form)" style="background-color: #8aff04;"></td>
+        </tr>
+
+
+
+    </table>
+
+
+</body>
+
+</html>
